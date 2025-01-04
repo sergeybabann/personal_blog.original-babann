@@ -7,11 +7,18 @@
 
 <body>
 
-    {{> header }}
+    <!----- PAGE ----->
+    <div class="page">
+        {{> header }}
 
-    {{> body }}
+        <aside class="sidebar">
+            Sidebar
+        </aside>
 
-    {{> footer }}
+        <main class="main">
+            {{> body }}
+        </main>
+    </div><!--page-->
 
     <script src="assets/js/app.js"></script>
 </body>

@@ -1,5 +1,12 @@
+@import 'vars';
+
+html {
+  font-size: 62.5%;
+}
+
 body {
-    background-color: black;
-    font-size: 21px;
-    color: white;
+  background-color: #121212;
+  font-size: 1.4rem;
+  font-family: 'Roboto', sans-serif;
+  color: $white;
 }
