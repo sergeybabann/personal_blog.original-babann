@@ -1,4 +1,5 @@
 @import 'vars';
+@import 'vendor/reset';
 
 html {
   font-size: 62.5%;
@@ -10,3 +11,16 @@ body {
   font-family: 'Roboto', sans-serif;
   color: $white;
 }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Blocks */
+@import 'blocks/page';
+@import 'blocks/header';
+@import 'blocks/sidebar';
+@import 'blocks/main';
+@import 'blocks/container.scss';

@@ -9,17 +9,21 @@
 
     <!----- PAGE ----->
     <div class="page">
+        <!-- Header -->
         {{> header }}
 
-        <aside class="sidebar">
-            Sidebar
-        </aside>
+        <!-- Sidebar -->
+        {{> sidebar }}
 
+        <!-- Main -->
         <main class="main">
-            {{> body }}
+            <div class="container">
+                {{> body }}
+            </div><!--container-->
         </main>
     </div><!--page-->
 
+    <!----- JS ----->
     <script src="assets/js/app.js"></script>
 </body>
 

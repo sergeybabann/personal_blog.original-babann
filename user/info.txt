@@ -6,4 +6,6 @@ git repo:
 
 https://github.com/sergeybabann/personal_blog.original-babann
 
-video stop: #01 - 25.43
+video stop: #01 
+
+video #1 complete
